@@ -1,1 +1,1 @@
-web: gunicorn final.wsgi --max-requests 1200
+web: python manage.py runserver
